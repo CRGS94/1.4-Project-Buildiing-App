@@ -13,8 +13,6 @@ namespace ChapeauLogic
     {
         OrderDAO ordersdb;
 
-        private SqlConnection connection;
-
         public OrderService()
         {
             ordersdb = new OrderDAO();

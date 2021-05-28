@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ChapeauDAL
 {
-    class EmployeeDAO
+    public class EmployeeDAO : BaseDao
     {
     }
 }

@@ -4,7 +4,8 @@ using System.Text;
 
 namespace ChapeauModel
 {
-    public class Employee
+    public enum OrderStatus
     {
+        ordered, preparing, ready, delivered
     }
 }

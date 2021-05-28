@@ -9,6 +9,23 @@ namespace ChapeauModel
 {
     public class Order
     {
+        public List<OrderItem> orderItems = new List<OrderItem>();
+
+        public int OrderID { get; set; } // to refer to the order later
+
+        public int BillID { get; set; } //to refer to the bill within the order
+
+        public Table Table_Number { get; set; } // 1 - 10
+
+        public Employee Employee_Number { get; set; } // who took the order
+
+        public DateTime Order_Time { get; set; } // what time was the order taken
+
+        public bool Order_Status { get; set; } // order incomplete/order complete
+
+        public string Comment { get; set; } // customer places comment
+
+
         public Order(int orderID, int billID, Table tableNumber, Employee employeeNumber, DateTime orderTime, bool orderStatus, string comment)
         {
             orderID = OrderID;
@@ -23,21 +40,5 @@ namespace ChapeauModel
         public Order()
         {
         }
-
-        public List<OrderItem> orderItems = new List<OrderItem>();
-
-        public int OrderID { get; set; } // to refer to the order later
-
-        public int BillID { get; set; } //to refer to the bill within the order
-
-        public int Table_Number { get; set; } // 1 - 10
-
-        public int Employee_Number { get; set; } // who took the order
-
-        public DateTime Order_Time { get; set; } // what time was the order taken
-
-        public bool Order_Status { get; set; } // order incomplete/order complete
-
-        public string Comment { get; set; } // customer places comment
     }
 }

@@ -9,12 +9,14 @@ namespace ChapeauModel
 {
     public class Order
     {
+
+        // will not be accessbile until menuitem and employee are updated
         public Order(int orderID, int billID, Table tableNumber, Employee employeeNumber, DateTime orderTime, bool orderStatus, string comment)
         {
             orderID = OrderID;
             billID = BillID;
-            tableNumber = Table_Number; // don't know why this is happening
-            employeeNumber = Employee_Number;  // don't know why this is happening
+            tableNumber = Table_Number; 
+            employeeNumber = Employee_Number;  
             orderTime = Order_Time;
             orderStatus = Order_Status;
             comment = Comment;
@@ -30,9 +32,9 @@ namespace ChapeauModel
 
         public int BillID { get; set; } //to refer to the bill within the order
 
-        public int Table_Number { get; set; } // 1 - 10
+        public Table Table_Number { get; set; } // 1 - 10
 
-        public int Employee_Number { get; set; } // who took the order
+        public Employee Employee_Number { get; set; } // who took the order // (will not be accessbile until employee is updated)
 
         public DateTime Order_Time { get; set; } // what time was the order taken
 

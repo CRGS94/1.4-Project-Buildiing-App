@@ -5,10 +5,24 @@ using System.Text;
 using System.Threading.Tasks;
 using ChapeauModel;
 using ChapeauDAL;
+using System.Data.SqlClient;
 
 namespace ChapeauLogic
 {
-    class OrderItemService
+    public class OrderItemService
     {
+        OrderItemDAO orderitemsdb;
+
+        private SqlConnection connection;
+
+        public OrderItemService()
+        {
+            orderitemsdb = new OrderItemDAO();
+        }
+
+        public void UpdateOrderItem(OrderItem orderitem, int newQuantity)
+        {
+            orderitemsdb.UpdateOrderItem(orderitem, newQuantity);
+        }
     }
 }

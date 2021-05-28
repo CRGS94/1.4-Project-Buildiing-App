@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ChapeauModel
 {
-    class MenuItem
+    public class MenuItem
     {
     }
 }

@@ -7,16 +7,18 @@ namespace ChapeauModel
 {
     public class OrderItem
     {
-        public OrderItem(int orderItemID, int orderNumber, int menuitemID, int quantity, string comment, OrderStatus orderStatus, Table table, DateTime Ordertime)
+        // (will not be accessbile until menuitem is updated)
+        public OrderItem(int orderItemID, int orderNumber, MenuItem menuItem, int quantity, string comment, OrderStatus orderStatus, DateTime Ordertime, Table tableNumber)
         {
             OrderItemID = orderItemID;
             Order_Number = orderNumber;
-            MenuItemID = menuitemID;
+            MenuItem = menuItem;
             Quantity = quantity;
             Comment = comment;
             Order_Status = orderStatus;
-            Table = table;
             Order_Time = Ordertime;
+            Table_Number = tableNumber;
+            
         }
 
        
@@ -27,17 +29,19 @@ namespace ChapeauModel
 
         public int OrderItemID { get; set; }
         public int Order_Number { get; set; }
-        public int MenuItemID { get; set; }
+        public MenuItem MenuItem { get; set; } // (will not be accessbile until menuitem is updated)
         public int Quantity { get; set; }
         public string Comment { get; set; }
 
         public OrderStatus Order_Status { get; set; }
 
-        public Table Table { get; set; }
-
         public DateTime Order_Time { get; set; }
 
-        public OrderItem() : this(0, 0, new menuitemID(), 1, "", OrderStatus.ordered, new Table(), DateTime.Now)
+        public Table Table_Number { get; set; }
+
+        
+
+        public OrderItem() : this(0, 0, new MenuItem(), 1, "", OrderStatus.ordered, DateTime.Now, new Table())
         {
 
         }

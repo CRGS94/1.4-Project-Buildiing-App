@@ -20,5 +20,11 @@ namespace ChapeauLogic
             List<Menu> menuList = menudb.GetAll();
             return menuList;
         }
+
+        public Menu GetByMenuId(int menu_id)
+        {
+            Menu menu = menudb.GetById(menu_id);
+            return menu;
+        }
     }
 }

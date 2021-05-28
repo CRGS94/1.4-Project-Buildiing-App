@@ -2,3 +2,8 @@ C:\Users\pablo\Desktop\1.4-Project-Building-App\ChapeauModel\obj\Debug\netcoreap
 C:\Users\pablo\Desktop\1.4-Project-Building-App\ChapeauModel\obj\Debug\netcoreapp3.1\ChapeauModel.AssemblyInfoInputs.cache
 C:\Users\pablo\Desktop\1.4-Project-Building-App\ChapeauModel\obj\Debug\netcoreapp3.1\ChapeauModel.AssemblyInfo.cs
 C:\Users\pablo\Desktop\1.4-Project-Building-App\ChapeauModel\obj\Debug\netcoreapp3.1\ChapeauModel.csproj.CoreCompileInputs.cache
+C:\Users\pablo\Desktop\1.4-Project-Building-App\ChapeauModel\bin\Debug\netcoreapp3.1\ChapeauModel.deps.json
+C:\Users\pablo\Desktop\1.4-Project-Building-App\ChapeauModel\bin\Debug\netcoreapp3.1\ChapeauModel.dll
+C:\Users\pablo\Desktop\1.4-Project-Building-App\ChapeauModel\bin\Debug\netcoreapp3.1\ChapeauModel.pdb
+C:\Users\pablo\Desktop\1.4-Project-Building-App\ChapeauModel\obj\Debug\netcoreapp3.1\ChapeauModel.dll
+C:\Users\pablo\Desktop\1.4-Project-Building-App\ChapeauModel\obj\Debug\netcoreapp3.1\ChapeauModel.pdb

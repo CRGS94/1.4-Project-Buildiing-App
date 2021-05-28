@@ -1,0 +1,4 @@
+C:\Users\pablo\Desktop\1.4-Project-Building-App\ChapeauLogic\obj\Debug\netcoreapp3.1\ChapeauLogic.csprojAssemblyReference.cache
+C:\Users\pablo\Desktop\1.4-Project-Building-App\ChapeauLogic\obj\Debug\netcoreapp3.1\ChapeauLogic.AssemblyInfoInputs.cache
+C:\Users\pablo\Desktop\1.4-Project-Building-App\ChapeauLogic\obj\Debug\netcoreapp3.1\ChapeauLogic.AssemblyInfo.cs
+C:\Users\pablo\Desktop\1.4-Project-Building-App\ChapeauLogic\obj\Debug\netcoreapp3.1\ChapeauLogic.csproj.CoreCompileInputs.cache

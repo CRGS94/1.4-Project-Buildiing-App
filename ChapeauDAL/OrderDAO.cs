@@ -25,8 +25,8 @@ namespace ChapeauDAL
                 {
                     OrderID = (int)dr["order_ID"],
                     BillID = (int)dr["bill_ID"],
-                    Table_Number = (int)dr["table_number"],
-                    Employee_Number = (int)dr["empoyee_number"],
+                    Table_Number = (Table)dr["table_number"],
+                    Employee_Number = (Employee)dr["empoyee_number"],
                     Order_Time = (DateTime)dr["order_time"],
                     Order_Status = (bool)dr["order_status"],
                     Comment = (string)dr["comment"]

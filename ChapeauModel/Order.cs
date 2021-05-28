@@ -21,20 +21,20 @@ namespace ChapeauModel
 
         public DateTime Order_Time { get; set; } // what time was the order taken
 
-        public bool Order_Status { get; set; } // order incomplete/order complete
+        public OrderStatus Order_Status { get; set; } // order incomplete/order complete
 
         public string Comment { get; set; } // customer places comment
 
 
-        public Order(int orderID, int billID, Table tableNumber, Employee employeeNumber, DateTime orderTime, bool orderStatus, string comment)
+        public Order(int orderID, int billID, Table tableNumber, Employee employeeNumber, DateTime orderTime, OrderStatus orderStatus, string comment)
         {
-            orderID = OrderID;
-            billID = BillID;
-            tableNumber = Table_Number; // don't know why this is happening
-            employeeNumber = Employee_Number;  // don't know why this is happening
-            orderTime = Order_Time;
-            orderStatus = Order_Status;
-            comment = Comment;
+            OrderID = orderID;
+            BillID = billID;
+            Table_Number = tableNumber;
+            Employee_Number = employeeNumber;
+            Order_Time = orderTime;
+            Order_Status = orderStatus;
+            Comment = comment;
         }
 
         public Order()

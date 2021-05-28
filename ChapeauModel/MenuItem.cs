@@ -16,7 +16,7 @@ namespace ChapeauModel
 
         public int Menu_Item_Vat { get; set; }
 
-        public int Menu_ID { get; set; }
+        public Menu Menu_ID { get; set; }
 
         public string Menu_Item_Category { get; set; }
 

@@ -4,7 +4,10 @@ using System.Text;
 
 namespace ChapeauModel
 {
-    public class Employee
+    public enum Table_Availability
     {
+        available =1,
+        occupied,
+        reserved
     }
 }

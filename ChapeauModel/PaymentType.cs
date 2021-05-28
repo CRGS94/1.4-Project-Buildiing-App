@@ -4,7 +4,10 @@ using System.Text;
 
 namespace ChapeauModel
 {
-    public class Employee
+    public enum PaymentType
     {
+        Pin =1,
+        Visa,
+        Cash
     }
 }

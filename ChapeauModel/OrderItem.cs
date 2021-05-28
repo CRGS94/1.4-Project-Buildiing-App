@@ -19,11 +19,6 @@ namespace ChapeauModel
             Order_Time = Ordertime;
         }
 
-       
-        public enum OrderStatus
-        {
-            ordered, preparing, ready, delivered
-        }
 
         public int OrderItemID { get; set; }
         public int Order_Number { get; set; }
@@ -37,9 +32,5 @@ namespace ChapeauModel
 
         public DateTime Order_Time { get; set; }
 
-        public OrderItem() : this(0, 0, new menuitemID(), 1, "", OrderStatus.ordered, new Table(), DateTime.Now)
-        {
-
-        }
     }
 }

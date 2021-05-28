@@ -4,7 +4,11 @@ using System.Text;
 
 namespace ChapeauModel
 {
-    public class Employee
+    public enum EmployeeRole
     {
+        Waiter = 1,
+        Bar,
+        Kitchen, 
+        Manager
     }
 }

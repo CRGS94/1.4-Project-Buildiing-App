@@ -7,6 +7,15 @@ namespace ChapeauModel
 {
     public class OrderItem
     {
+        public int OrderItemID { get; set; }
+        public int Order_Number { get; set; }
+        public int MenuItemID { get; set; }
+        public int Quantity { get; set; }
+        public string Comment { get; set; }
+        public OrderStatus Order_Status { get; set; }
+        public Table Table { get; set; }
+        public DateTime Order_Time { get; set; }
+
         public OrderItem(int orderItemID, int orderNumber, int menuitemID, int quantity, string comment, OrderStatus orderStatus, Table table, DateTime Ordertime)
         {
             OrderItemID = orderItemID;
@@ -18,19 +27,5 @@ namespace ChapeauModel
             Table = table;
             Order_Time = Ordertime;
         }
-
-
-        public int OrderItemID { get; set; }
-        public int Order_Number { get; set; }
-        public int MenuItemID { get; set; }
-        public int Quantity { get; set; }
-        public string Comment { get; set; }
-
-        public OrderStatus Order_Status { get; set; }
-
-        public Table Table { get; set; }
-
-        public DateTime Order_Time { get; set; }
-
     }
 }

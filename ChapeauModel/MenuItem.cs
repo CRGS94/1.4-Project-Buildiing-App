@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ChapeauModel
 {
-    class MenuItem
+    public class MenuItem
     {
         public int Menu_Item_ID { get; set; }
 
@@ -19,5 +19,6 @@ namespace ChapeauModel
         public int Menu_ID { get; set; }
 
         public string Menu_Item_Category { get; set; }
+
     }
 }

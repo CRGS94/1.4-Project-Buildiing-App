@@ -44,7 +44,7 @@ namespace ChapeauDAL
 
         public void UpdateOrder(Order order, bool completed)
         {
-            string query = $"UPDATE [Table] SET order_status={completed} WHERE table_id={order.OrderID}";
+            string query = $"UPDATE [Order] SET order_status={completed} WHERE order_ID={order.OrderID}";
             SqlParameter[] sqlParameters = new SqlParameter[0];
             ExecuteEditQuery(query, sqlParameters);
         }

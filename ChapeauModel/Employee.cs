@@ -5,7 +5,17 @@ using System.Text;
 namespace ChapeauModel
 {
     public class Employee
+
     {
+        public Employee(int employee_Number, string first_Name, string last_Name, int employee_Password, EmployeeRole role)
+        {
+
+            this.Employee_Number = employee_Number;
+            this.First_Name = first_Name;
+            this.Last_Name = last_Name;
+            this.Employee_Password = employee_Password;
+            this.Employee_Role = role;
+        }
         public int Employee_Number { get; set; } 
 
         public string First_Name { get; set; }

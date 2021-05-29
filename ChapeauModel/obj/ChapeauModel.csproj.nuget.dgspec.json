@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\1NHOLLAND\\year1repeat\\1.4\\Chapeau\\ChapeauModel\\ChapeauModel.csproj": {}
+    "C:\\Users\\crgio\\Source\\Repos\\CRGS94\\1.4-Project-Buildiing-App\\ChapeauModel\\ChapeauModel.csproj": {}
   },
   "projects": {
-    "D:\\1NHOLLAND\\year1repeat\\1.4\\Chapeau\\ChapeauModel\\ChapeauModel.csproj": {
+    "C:\\Users\\crgio\\Source\\Repos\\CRGS94\\1.4-Project-Buildiing-App\\ChapeauModel\\ChapeauModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\1NHOLLAND\\year1repeat\\1.4\\Chapeau\\ChapeauModel\\ChapeauModel.csproj",
+        "projectUniqueName": "C:\\Users\\crgio\\Source\\Repos\\CRGS94\\1.4-Project-Buildiing-App\\ChapeauModel\\ChapeauModel.csproj",
         "projectName": "ChapeauModel",
-        "projectPath": "D:\\1NHOLLAND\\year1repeat\\1.4\\Chapeau\\ChapeauModel\\ChapeauModel.csproj",
-        "packagesPath": "C:\\Users\\sasac\\.nuget\\packages\\",
-        "outputPath": "D:\\1NHOLLAND\\year1repeat\\1.4\\Chapeau\\ChapeauModel\\obj\\",
+        "projectPath": "C:\\Users\\crgio\\Source\\Repos\\CRGS94\\1.4-Project-Buildiing-App\\ChapeauModel\\ChapeauModel.csproj",
+        "packagesPath": "C:\\Users\\crgio\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\crgio\\Source\\Repos\\CRGS94\\1.4-Project-Buildiing-App\\ChapeauModel\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\sasac\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\crgio\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -57,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

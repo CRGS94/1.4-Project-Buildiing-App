@@ -836,23 +836,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\sasac\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\crgio\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\1NHOLLAND\\year1repeat\\1.4\\Chapeau\\ChapeauDAL\\ChapeauDAL.csproj",
+      "projectUniqueName": "C:\\Users\\crgio\\Source\\Repos\\CRGS94\\1.4-Project-Buildiing-App\\ChapeauDAL\\ChapeauDAL.csproj",
       "projectName": "ChapeauDAL",
-      "projectPath": "D:\\1NHOLLAND\\year1repeat\\1.4\\Chapeau\\ChapeauDAL\\ChapeauDAL.csproj",
-      "packagesPath": "C:\\Users\\sasac\\.nuget\\packages\\",
-      "outputPath": "D:\\1NHOLLAND\\year1repeat\\1.4\\Chapeau\\ChapeauDAL\\obj\\",
+      "projectPath": "C:\\Users\\crgio\\Source\\Repos\\CRGS94\\1.4-Project-Buildiing-App\\ChapeauDAL\\ChapeauDAL.csproj",
+      "packagesPath": "C:\\Users\\crgio\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\crgio\\Source\\Repos\\CRGS94\\1.4-Project-Buildiing-App\\ChapeauDAL\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\sasac\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\crgio\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -866,8 +862,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\1NHOLLAND\\year1repeat\\1.4\\Chapeau\\ChapeauModel\\ChapeauModel.csproj": {
-              "projectPath": "D:\\1NHOLLAND\\year1repeat\\1.4\\Chapeau\\ChapeauModel\\ChapeauModel.csproj"
+            "C:\\Users\\crgio\\Source\\Repos\\CRGS94\\1.4-Project-Buildiing-App\\ChapeauModel\\ChapeauModel.csproj": {
+              "projectPath": "C:\\Users\\crgio\\Source\\Repos\\CRGS94\\1.4-Project-Buildiing-App\\ChapeauModel\\ChapeauModel.csproj"
             }
           }
         }
@@ -910,7 +906,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

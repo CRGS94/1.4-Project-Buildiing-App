@@ -27,5 +27,10 @@ namespace ChapeauModel
             Table = table;
             Order_Time = Ordertime;
         }
+
+        public OrderItem()
+        {
+
+        }
     }
 }

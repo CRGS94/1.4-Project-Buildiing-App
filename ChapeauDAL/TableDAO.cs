@@ -27,14 +27,14 @@ namespace ChapeauDAL
                     Table_ID = (int)dr["table_id"],
                     Table_Number = (int)(dr["table_number"]),
                     Table_Capacity = (int)(dr["table_capacity"]),
-                    Table_Availability = ((Enum)dr["table_availability"])
+                    Table_Availability = ((Table_Availability)dr["table_availability"])
                 };
                 tables.Add(table);
             }
             return tables;
         }
 
-        //change tablee availability
+        //change tablee availabilitys
         public void UpdateTable(Table table, bool occupied)
         {
             string query = $"UPDATE [Table] SET table_availability={occupied} WHERE table_id={table.Table_ID}";

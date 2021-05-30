@@ -3,3 +3,15 @@ C:\Users\pablo\Desktop\1.4-Project-Building-App\ChapeauDAL\obj\Debug\netcoreapp3
 C:\Users\pablo\Desktop\1.4-Project-Building-App\ChapeauDAL\obj\Debug\netcoreapp3.1\ChapeauDAL.AssemblyInfoInputs.cache
 C:\Users\pablo\Desktop\1.4-Project-Building-App\ChapeauDAL\obj\Debug\netcoreapp3.1\ChapeauDAL.AssemblyInfo.cs
 C:\Users\pablo\Desktop\1.4-Project-Building-App\ChapeauDAL\obj\Debug\netcoreapp3.1\ChapeauDAL.csproj.CoreCompileInputs.cache
+D:\1NHOLLAND\year1repeat\1.4\Chapeau\ChapeauDAL\bin\Debug\netcoreapp3.1\ChapeauDAL.deps.json
+D:\1NHOLLAND\year1repeat\1.4\Chapeau\ChapeauDAL\bin\Debug\netcoreapp3.1\ChapeauDAL.dll
+D:\1NHOLLAND\year1repeat\1.4\Chapeau\ChapeauDAL\bin\Debug\netcoreapp3.1\ChapeauDAL.pdb
+D:\1NHOLLAND\year1repeat\1.4\Chapeau\ChapeauDAL\bin\Debug\netcoreapp3.1\ChapeauModel.dll
+D:\1NHOLLAND\year1repeat\1.4\Chapeau\ChapeauDAL\bin\Debug\netcoreapp3.1\ChapeauModel.pdb
+D:\1NHOLLAND\year1repeat\1.4\Chapeau\ChapeauDAL\obj\Debug\netcoreapp3.1\ChapeauDAL.csprojAssemblyReference.cache
+D:\1NHOLLAND\year1repeat\1.4\Chapeau\ChapeauDAL\obj\Debug\netcoreapp3.1\ChapeauDAL.AssemblyInfoInputs.cache
+D:\1NHOLLAND\year1repeat\1.4\Chapeau\ChapeauDAL\obj\Debug\netcoreapp3.1\ChapeauDAL.AssemblyInfo.cs
+D:\1NHOLLAND\year1repeat\1.4\Chapeau\ChapeauDAL\obj\Debug\netcoreapp3.1\ChapeauDAL.csproj.CoreCompileInputs.cache
+D:\1NHOLLAND\year1repeat\1.4\Chapeau\ChapeauDAL\obj\Debug\netcoreapp3.1\ChapeauDAL.csproj.CopyComplete
+D:\1NHOLLAND\year1repeat\1.4\Chapeau\ChapeauDAL\obj\Debug\netcoreapp3.1\ChapeauDAL.dll
+D:\1NHOLLAND\year1repeat\1.4\Chapeau\ChapeauDAL\obj\Debug\netcoreapp3.1\ChapeauDAL.pdb

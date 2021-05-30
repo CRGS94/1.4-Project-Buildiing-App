@@ -5,7 +5,6 @@ using System.Text;
 namespace ChapeauModel
 {
     public class Bill
-
     {
         //order overview
         public int OrderId { get; set; }// which order is linked
@@ -33,7 +32,5 @@ namespace ChapeauModel
             this.Tip = tip;
             this.Vat = vat;
         }
-
-
     }
 }

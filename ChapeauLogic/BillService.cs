@@ -6,5 +6,6 @@ namespace ChapeauLogic
 {
     class BillService
     {
+        //implement this class
     }
 }

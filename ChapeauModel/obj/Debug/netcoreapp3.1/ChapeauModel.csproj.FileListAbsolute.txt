@@ -7,3 +7,12 @@ C:\Users\pablo\Desktop\1.4-Project-Building-App\ChapeauModel\bin\Debug\netcoreap
 C:\Users\pablo\Desktop\1.4-Project-Building-App\ChapeauModel\bin\Debug\netcoreapp3.1\ChapeauModel.pdb
 C:\Users\pablo\Desktop\1.4-Project-Building-App\ChapeauModel\obj\Debug\netcoreapp3.1\ChapeauModel.dll
 C:\Users\pablo\Desktop\1.4-Project-Building-App\ChapeauModel\obj\Debug\netcoreapp3.1\ChapeauModel.pdb
+D:\1NHOLLAND\year1repeat\1.4\Chapeau\ChapeauModel\bin\Debug\netcoreapp3.1\ChapeauModel.deps.json
+D:\1NHOLLAND\year1repeat\1.4\Chapeau\ChapeauModel\bin\Debug\netcoreapp3.1\ChapeauModel.dll
+D:\1NHOLLAND\year1repeat\1.4\Chapeau\ChapeauModel\bin\Debug\netcoreapp3.1\ChapeauModel.pdb
+D:\1NHOLLAND\year1repeat\1.4\Chapeau\ChapeauModel\obj\Debug\netcoreapp3.1\ChapeauModel.csprojAssemblyReference.cache
+D:\1NHOLLAND\year1repeat\1.4\Chapeau\ChapeauModel\obj\Debug\netcoreapp3.1\ChapeauModel.AssemblyInfoInputs.cache
+D:\1NHOLLAND\year1repeat\1.4\Chapeau\ChapeauModel\obj\Debug\netcoreapp3.1\ChapeauModel.AssemblyInfo.cs
+D:\1NHOLLAND\year1repeat\1.4\Chapeau\ChapeauModel\obj\Debug\netcoreapp3.1\ChapeauModel.csproj.CoreCompileInputs.cache
+D:\1NHOLLAND\year1repeat\1.4\Chapeau\ChapeauModel\obj\Debug\netcoreapp3.1\ChapeauModel.dll
+D:\1NHOLLAND\year1repeat\1.4\Chapeau\ChapeauModel\obj\Debug\netcoreapp3.1\ChapeauModel.pdb

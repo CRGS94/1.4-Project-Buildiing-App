@@ -21,12 +21,12 @@ namespace ChapeauDAL
                 {
                     OrderItemID = (int)dr["order_ID"],
                     Order_Number = (int)dr["order_number"],
-                    MenuItem = (MenuItem)dr["menu_item_id"],
+                    MenuItemID = (MenuItem)dr["menu_item_id"],
                     Quantity = (int)dr["quantity"],
                     Comment = (string)dr["comment"],
-                    Order_Status = (OrderItem.OrderStatus)dr["status"],
+                    Order_Status = (OrderStatus)dr["status"],
                     Order_Time = (DateTime)dr["datetime"],
-                    Table_Number = (Table)dr["table_number"]
+                    Table = (Table)dr["table_number"]
                 };
                 orderItems.Add(orderitem);
             }

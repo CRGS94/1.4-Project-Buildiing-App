@@ -21,7 +21,7 @@ namespace ChapeauLogic
             return employeeList;
             
         }
-
+        //menu by id?
         public Employee GetByMenuId(int employee_number)
         {
             Employee employee = employeedb.GetById(employee_number);

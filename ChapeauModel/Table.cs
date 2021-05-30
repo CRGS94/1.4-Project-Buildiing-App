@@ -14,5 +14,10 @@ namespace ChapeauModel
             this.Table_Number = table_Number;
             this.Table_Availability = table_Availability;
         }
+
+        public Table()
+        {
+
+        }
     }
 }
